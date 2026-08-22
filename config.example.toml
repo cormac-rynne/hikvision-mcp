@@ -1,0 +1,30 @@
+database_path = "hikvision-mcp.sqlite3"
+
+[http]
+host = "127.0.0.1"
+port = 8000
+
+[policy]
+default_level = 1
+enable_raw_get = false
+enable_raw_writes = false
+proposal_ttl_seconds = 300
+
+[policy.tools]
+configure_warning_light = 3
+
+[cameras.example_camera]
+host = "192.0.2.42"
+port = 80
+scheme = "http"
+username_env = "HIKVISION_CAMERA_USERNAME"
+password_env = "HIKVISION_CAMERA_PASSWORD"
+verify_tls = true
+
+[cameras.example_camera.channels]
+video_input = "auto"
+image = "auto"
+smart_detection = "auto"
+
+[cameras.example_camera.policy]
+max_level = 1

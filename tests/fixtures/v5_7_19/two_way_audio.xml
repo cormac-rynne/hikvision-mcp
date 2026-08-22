@@ -1,0 +1,1 @@
+<TwoWayAudioChannelList><TwoWayAudioChannel><id>1</id><enabled>false</enabled><audioCompressionType>G.711ulaw</audioCompressionType><speakerVolume>50</speakerVolume><noisereduce>true</noisereduce><audioInputType>MicIn</audioInputType></TwoWayAudioChannel></TwoWayAudioChannelList>

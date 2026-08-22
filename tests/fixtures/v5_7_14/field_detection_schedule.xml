@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Schedule version="2.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+  <id>fielddetection_video1</id>
+  <eventType>fielddetection</eventType>
+  <TimeBlockList size="1">
+    <TimeBlock><dayOfWeek>1</dayOfWeek><TimeRange><beginTime>00:00</beginTime><endTime>24:00</endTime></TimeRange></TimeBlock>
+  </TimeBlockList>
+</Schedule>

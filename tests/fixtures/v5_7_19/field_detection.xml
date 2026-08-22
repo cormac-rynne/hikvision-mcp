@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldDetection version="2.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+  <id>1</id>
+  <enabled>true</enabled>
+  <startTriggerTime>500</startTriggerTime>
+  <endTriggerTime>500</endTriggerTime>
+  <FieldDetectionRegionList size="2">
+    <FieldDetectionRegion>
+      <id>1</id>
+      <enabled>false</enabled>
+      <sensitivityLevel>75</sensitivityLevel>
+      <timeThreshold>0</timeThreshold>
+      <RegionCoordinatesList>
+        <RegionCoordinates><positionX>5</positionX><positionY>531</positionY></RegionCoordinates>
+        <RegionCoordinates><positionX>226</positionX><positionY>846</positionY></RegionCoordinates>
+        <RegionCoordinates><positionX>483</positionX><positionY>897</positionY></RegionCoordinates>
+      </RegionCoordinatesList>
+      <detectionTarget>human,vehicle</detectionTarget>
+      <alarmConfidence>high</alarmConfidence>
+    </FieldDetectionRegion>
+    <FieldDetectionRegion>
+      <id>2</id>
+      <enabled>false</enabled>
+      <sensitivityLevel>50</sensitivityLevel>
+      <timeThreshold>0</timeThreshold>
+      <detectionTarget>human,vehicle</detectionTarget>
+      <alarmConfidence>low</alarmConfidence>
+    </FieldDetectionRegion>
+  </FieldDetectionRegionList>
+</FieldDetection>

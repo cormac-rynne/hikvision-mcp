@@ -1,0 +1,12 @@
+--boundary
+Content-Type: application/xml; charset="UTF-8"
+Content-Length: 340
+
+<EventNotificationAlert version="2.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+  <channelID>1</channelID>
+  <dateTime>2026-08-21T22:35:37+01:00</dateTime>
+  <activePostCount>1</activePostCount>
+  <eventType>fielddetection</eventType>
+  <eventState>active</eventState>
+  <eventDescription>field detection alarm</eventDescription>
+</EventNotificationAlert>

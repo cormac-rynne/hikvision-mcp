@@ -1,0 +1,28 @@
+name: Feature request
+description: Suggest a semantic camera capability or project improvement.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed semantic behavior
+    validations:
+      required: true
+  - type: input
+    id: hardware
+    attributes:
+      label: Relevant camera model and firmware, if any
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Sensitive data
+      options:
+        - label: I have not included credentials or identifying camera or network data.
+          required: true

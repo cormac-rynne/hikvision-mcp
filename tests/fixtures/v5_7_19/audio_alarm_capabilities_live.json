@@ -1,0 +1,1 @@
+{"AudioAlarmCap":{"audioTypeListCap":[{"audioID":1,"audioDescription":"Siren"},{"audioID":2,"audioDescription":"Warning, restricted area"}],"audioVolume":{"@min":1,"@max":100,"@def":100},"alarmTimes":{"@min":1,"@max":50,"@def":5},"isSupportCustomAudio":true,"isSupportAudioTest":true}}

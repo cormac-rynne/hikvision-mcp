@@ -1,0 +1,9 @@
+{
+  "WhiteLightAlarm": {
+    "durationTime": 15,
+    "frequency": "medium",
+    "TimeRangeList": [
+      {"week": 1, "TimeRange": [{"id": 1, "beginTime": "00:00", "endTime": "24:00"}]}
+    ]
+  }
+}
